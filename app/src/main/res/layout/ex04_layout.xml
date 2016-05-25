@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="搜索"
+        android:inputType="text"
+        android:imeOptions="actionNext" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:background="@drawable/btn2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:background="@drawable/roundbtn"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex"
+        android:checkedButton="@+id/man">
+        <RadioButton
+            android:id="@+id/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+        <RadioButton
+            android:id="@+id/woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="女" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/wifiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="打开Wifi"
+        android:textOff="关闭Wifi" />
+
+    <Switch
+        android:id="@+id/gpsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开/关闭GPS"/>
+
+    <Chronometer
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/chronometer" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送验证码"
+        android:id="@+id/sendMsgBtn"
+        android:onClick="sendMsg"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:id="@+id/buyDate"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否过保修期"
+        android:onClick="isPass"/>
+
+</LinearLayout>

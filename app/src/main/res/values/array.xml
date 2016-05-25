@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="city">
+        <item>沈阳</item>
+        <item>阜新</item>
+        <item>大连</item>
+        <item>鞍山</item>
+        <item>葫芦岛</item>
+    </array>
+</resources>

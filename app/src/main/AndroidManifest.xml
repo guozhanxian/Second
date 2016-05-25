@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ralph.second">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Ex01Activity"></activity>
+        <activity android:name=".Ex02Activity"></activity>
+        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".Ex03Activity"></activity>
+        <activity android:name=".Ex04Activity"></activity>
+        <activity android:name=".Ex05Activity"></activity>
+        <activity android:name=".Ex06Activity"></activity>
+        <activity android:name=".Ex07Activity"></activity>
+        <activity android:name=".Ex08Activity"></activity>
+        <activity android:name=".Ex09Activity"></activity>
+        <activity android:name="Ex09Activity2"></activity>
+        <activity android:name=".Ex10Activity"></activity>
+        <activity android:name=".Ex11Activity"></activity>
+        <activity android:name=".Ex12Activity"></activity>
+        <activity android:name=".Ex13Activity"></activity>
+        <activity android:name=".EX14Activity"></activity>
+        <activity android:name=".Ex15Activity"></activity>
+        <activity android:name=".Ex16Activity"></activity>
+        <activity android:name=".Ex17Activity"></activity>
+        <activity android:name=".Ex18Activity"></activity>
+        <activity android:name=".PlaneActivity"></activity>
+        <activity android:name=".Ex19Activity"></activity>
+        <activity android:name=".Ex20Activity"></activity>
+        <activity android:name=".Ex21Activity"></activity>
+        <activity android:name=".Ex22Activity"></activity>
+        <activity android:name=".Ex23Activity"></activity>
+        <activity android:name=".Ex24Activity"></activity>
+        <activity android:name=".Ex25Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

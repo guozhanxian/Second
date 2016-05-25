@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示简单对话框"
+        android:onClick="showMsg"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="选择你的学历"
+        android:onClick="showMsg2"
+        android:id="@+id/xueli"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="选择你的编程语言"
+        android:onClick="showMsg3"
+        android:id="@+id/lang"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="选择你的老婆"
+        android:onClick="showMsg4"
+        android:id="@+id/wife"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="选择你的生日"
+        android:onClick="showMsg5"
+        android:id="@+id/birth"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="选择你的毕业时间"
+        android:onClick="showMsg6"
+        android:id="@+id/gradute"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="下载文件"
+        android:onClick="showMsg7" />
+</LinearLayout>
