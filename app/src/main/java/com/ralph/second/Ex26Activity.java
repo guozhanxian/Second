@@ -4,11 +4,12 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.SubMenu;
 import android.view.View;
 import android.widget.PopupMenu;
 import android.widget.TextView;
@@ -17,7 +18,7 @@ import android.widget.Toast;
 /**
  * Created by 果占先 on 2016/5/26.
  */
-public class Ex26Activity extends Activity {
+public class Ex26Activity extends AppCompatActivity {
     TextView txt;
 
     PopupMenu popm;
@@ -32,10 +33,12 @@ public class Ex26Activity extends Activity {
         txt = (TextView) findViewById(R.id.txt);
         registerForContextMenu(txt);
 
-        ab = getActionBar();
-        ab.setDisplayShowHomeEnabled(false);
-        ab.setDisplayHomeAsUpEnabled(true);
-        ab.setTitle("");
+//        ab = getActionBar();
+//        ab.setDisplayShowHomeEnabled(false);
+//        ab.setDisplayHomeAsUpEnabled(true);
+//        ab.setTitle("");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 
     @Override
