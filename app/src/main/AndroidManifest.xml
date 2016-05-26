@@ -43,7 +43,7 @@
         <activity android:name=".Ex23Activity"></activity>
         <activity android:name=".Ex24Activity"></activity>
         <activity android:name=".Ex25Activity"></activity>
-        <activity android:name=".Ex26Activity">
+        <activity android:name=".Ex26Activity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

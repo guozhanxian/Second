@@ -1,7 +1,6 @@
 package com.ralph.second;
 
 import android.app.ActionBar;
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -38,6 +37,7 @@ public class Ex26Activity extends AppCompatActivity {
 //        ab.setDisplayHomeAsUpEnabled(true);
 //        ab.setTitle("");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("<");
         setSupportActionBar(toolbar);
     }
 
