@@ -36,9 +36,10 @@ public class Ex26Activity extends AppCompatActivity {
 //        ab.setDisplayShowHomeEnabled(false);
 //        ab.setDisplayHomeAsUpEnabled(true);
 //        ab.setTitle("");
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = new Toolbar(this);
         toolbar.setTitle("<");
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("<<<");
     }
 
     @Override

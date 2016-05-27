@@ -1,6 +1,5 @@
 package com.ralph.second;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -22,7 +21,7 @@ import java.util.List;
 /**
  * Created by 果占先 on 2016/5/25.
  */
-public class Ex25Activity extends Activity
+public class Ex25Activity extends BaseActivity
 {
     Handler h = new Handler()
     {
@@ -48,10 +47,9 @@ public class Ex25Activity extends Activity
     EditText gradute;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
+    protected void initContentView(Bundle savedInstanceState)
     {
-
-        super.onCreate(savedInstanceState);
+        //super.onCreate(savedInstanceState);
         setContentView(R.layout.ex25_layout);
 
         txt = (EditText) findViewById(R.id.xueli);
