@@ -43,14 +43,17 @@
         <activity android:name=".Ex23Activity"></activity>
         <activity android:name=".Ex24Activity"></activity>
         <activity android:name=".Ex25Activity" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Ex26Activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex27Activity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".Ex28Activity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex26Activity" android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
     </application>
-
 </manifest>
