@@ -9,9 +9,9 @@ import android.widget.ListView;
 
 public class MainActivity extends BaseActivity {
     String[] names = {"Hello World","画心形图像","获取短信验证码","Chronometer倒计时和保修期计算"
-    ,"循环显示五张图片","Preference配置"};
+    ,"循环显示五张图片","Preference配置","图书Fragment"};
     Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
-    ,Ex05Activity.class,Ex29Activity.class};
+    ,Ex05Activity.class,Ex29Activity.class,Ex30Activity.class};
     ListView listView;
     @Override
     protected void initContentView(Bundle savedInstanceState) {

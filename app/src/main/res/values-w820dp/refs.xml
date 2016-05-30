@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ex30_layout" type="layout">@layout/ex30_layout_pad</item>
+</resources>

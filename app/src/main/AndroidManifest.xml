@@ -58,5 +58,9 @@
         </activity>
         <activity android:name=".Ex29Activity" android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".Ex30Activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex30ActivityBookDetail" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 </manifest>
