@@ -61,18 +61,6 @@ public class Ex26Activity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId())
         {
-            case R.id.font_10:
-                txt.setTextSize(10*3);
-                break;
-            case R.id.font_12:
-                txt.setTextSize(12*3);
-                break;
-            case R.id.font_14:
-                txt.setTextSize(14*3);
-                break;
-            case R.id.font_16:
-                txt.setTextSize(16*3);
-                break;
             case R.id.normal_btn:
                 Toast.makeText(Ex26Activity.this, "点击的是菜单项！", Toast.LENGTH_SHORT).show();
                 break;
@@ -116,18 +104,6 @@ public class Ex26Activity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
                 switch (item.getItemId())
                 {
-                    case R.id.font_10:
-                        txt.setTextSize(10*3);
-                        break;
-                    case R.id.font_12:
-                        txt.setTextSize(12*3);
-                        break;
-                    case R.id.font_14:
-                        txt.setTextSize(14*3);
-                        break;
-                    case R.id.font_16:
-                        txt.setTextSize(16*3);
-                        break;
                     case R.id.normal_btn:
                         Toast.makeText(Ex26Activity.this, "点击的是菜单项！", Toast.LENGTH_SHORT).show();
                         break;

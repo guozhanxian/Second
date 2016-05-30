@@ -41,7 +41,4 @@ public class Ex01Activity extends Activity {
 
         setContentView(layout);
     }
-
-
-
 }

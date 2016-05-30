@@ -13,7 +13,7 @@ import java.util.TimerTask;
 /**
  * Created by 果占先 on 2016/5/13.
  */
-public class Ex03Activity extends Activity {
+public class Ex03Activity extends BaseActivity {
     Handler h = new Handler(){
         @Override
         public void handleMessage(Message msg) {
@@ -31,8 +31,7 @@ public class Ex03Activity extends Activity {
     Timer t;
     Button btn;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex03_layout);
 
         btn = (Button) findViewById(R.id.sendBtn);

@@ -1,27 +1,33 @@
 package com.ralph.second;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
+    String[] names = {"Hello World","画心形图像","获取短信验证码","Chronometer倒计时和保修期计算"
+    ,"循环显示五张图片","Preference配置"};
+    Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
+    ,Ex05Activity.class,Ex29Activity.class};
+    ListView listView;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.activity_main);
-    }
 
-    public void mybuttonClick(View view)
-    {
-        Date d = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-        String str = sdf.format(d);
+        listView = (ListView) findViewById(R.id.listView);
 
-        TextView tv = (TextView) findViewById(R.id.txt);
-        tv.setText(str);
+        ArrayAdapter aa = new ArrayAdapter(this,android.R.layout.simple_list_item_1,names);
+        listView.setAdapter(aa);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i = new Intent(MainActivity.this,clazz[position]);
+                startActivity(i);
+            }
+        });
     }
 }

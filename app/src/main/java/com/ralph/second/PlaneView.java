@@ -49,7 +49,7 @@ public class PlaneView extends View implements View.OnTouchListener{
                 dx = x - curX;
                 dy = y - curY;
             case MotionEvent.ACTION_MOVE:
-            //case MotionEvent.ACTION_CANCEL:
+            case MotionEvent.ACTION_CANCEL:
                 curX = x - dx;
                 curY = y - dy;
                 invalidate();

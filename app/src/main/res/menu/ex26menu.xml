@@ -2,13 +2,13 @@
 <menu xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/search" android:title="搜索" android:showAsAction="always" android:actionViewClass="android.widget.SearchView" />
-    <item android:showAsAction="always" android:title="选择字体大小" android:icon="@drawable/icon_13">
-        <menu>
-            <item android:id="@+id/font_10" android:title="10号字" />
-            <item android:id="@+id/font_12" android:title="12号字" />
-            <item android:id="@+id/font_14" android:title="14号字" />
-            <item android:id="@+id/font_16" android:title="16号字" />
-        </menu>
-    </item>
-    <item android:id="@+id/normal_btn" android:title="这是一个菜单项" android:showAsAction="never"/>
+    <!--<item android:showAsAction="always" android:title="选择字体大小" android:icon="@drawable/icon_13">-->
+        <!--<menu>-->
+            <!--<item android:id="@+id/font_10" android:title="10号字" />-->
+            <!--<item android:id="@+id/font_12" android:title="12号字" />-->
+            <!--<item android:id="@+id/font_14" android:title="14号字" />-->
+            <!--<item android:id="@+id/font_16" android:title="16号字" />-->
+        <!--</menu>-->
+    <!--</item>-->
+    <item android:id="@+id/normal_btn" android:title="关于作者" android:showAsAction="never"/>
 </menu>

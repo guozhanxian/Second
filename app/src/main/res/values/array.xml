@@ -7,4 +7,17 @@
         <item>鞍山</item>
         <item>葫芦岛</item>
     </array>
+    <array name="gener_name_list">
+        <item>男</item>
+        <item>女</item>
+    </array>
+    <array name="gener_name_value_list">
+        <item>1</item>
+        <item>0</item>
+    </array>
+    <array name="light_strength">
+        <item>强</item>
+        <item>中</item>
+        <item>弱</item>
+    </array>
 </resources>

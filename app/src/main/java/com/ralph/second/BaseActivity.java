@@ -1,6 +1,9 @@
 package com.ralph.second;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -20,7 +23,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         initContentView(savedInstanceState);
         Toolbar t = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(t);
-        getSupportActionBar().setTitle("天狗");
+        getSupportActionBar().setTitle("");
+        getSupportActionBar().setIcon(R.drawable.cake_icon16);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
     @Override
@@ -34,8 +38,17 @@ public abstract class BaseActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId())
         {
+            case R.id.normal_btn:
+                new AlertDialog.Builder(this).setIcon(R.drawable.icon_28).setTitle("作者介绍").setMessage("会Java的蝈蝈，开发人员的颜值担当！").setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                }).create().show();
+                break;
             case android.R.id.home:
-                Toast.makeText(this, "点击了Home图标", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(this,MainActivity.class);
+                startActivity(i);
                 break;
         }
         return true;

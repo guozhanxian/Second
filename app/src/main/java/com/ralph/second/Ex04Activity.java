@@ -18,10 +18,9 @@ import java.util.Date;
 /**
  * Created by 果占先 on 2016/5/17.
  */
-public class Ex04Activity extends Activity {
+public class Ex04Activity extends BaseActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex04_layout);
 
         Toast.makeText(Ex04Activity.this, "你好你好你好！", Toast.LENGTH_LONG).show();
