@@ -21,8 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex01Activity"></activity>
-        <activity android:name=".Ex02Activity"></activity>
+        <activity android:name=".Ex01Activity">
+            <intent-filter>
+                <action android:name="helloworld" />
+                <category android:name="com.ralph.second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ex02Activity">
+            <intent-filter>
+                <action android:name="heart" />
+                <category android:name="com.ralph.second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".TestActivity"></activity>
         <activity android:name=".Ex03Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Ex04Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
@@ -55,12 +67,22 @@
         <activity android:name=".Ex27Activity" android:theme="@style/AppTheme.NoActionBar" android:configChanges="orientation|screenSize">
         </activity>
         <activity android:name=".Ex28Activity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="hello" />
+                <category android:name="com.ralph.sencond.world" />
+            </intent-filter>
         </activity>
         <activity android:name=".Ex29Activity" android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".Ex30Activity" android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".Ex30ActivityBookDetail" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex31Activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex31Activity2" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex32Activity" android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 </manifest>
