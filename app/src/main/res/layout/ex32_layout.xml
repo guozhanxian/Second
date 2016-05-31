@@ -16,4 +16,10 @@
         android:layout_height="wrap_content"
         android:text="查看联系人"
         android:id="@+id/btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打电话给另外一个模拟器"
+        android:id="@+id/btn2"
+        android:onClick="callTheOther"/>
 </LinearLayout>

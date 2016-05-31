@@ -63,4 +63,14 @@ public class Ex32Activity extends BaseActivity {
             c.close();
         }
     }
+
+    public void callTheOther(View view)
+    {
+        Intent i = new Intent();
+        i.setAction(Intent.ACTION_DIAL);
+        String data = "tel:15040138915";
+        i.setData(Uri.parse(data));
+
+        startActivity(i);
+    }
 }
