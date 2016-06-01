@@ -9,11 +9,10 @@ import android.widget.SeekBar;
 /**
  * Created by 果占先 on 2016/5/23.
  */
-public class Ex18Activity extends Activity {
+public class Ex18Activity extends BaseActivity {
     ImageView image;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex18_layout);
 
         image = (ImageView) findViewById(R.id.img);

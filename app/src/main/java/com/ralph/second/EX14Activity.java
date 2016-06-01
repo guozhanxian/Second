@@ -11,12 +11,11 @@ import android.widget.Toast;
 /**
  * Created by 果占先 on 2016/5/19.
  */
-public class EX14Activity extends Activity {
+public class EX14Activity extends BaseActivity {
     String [] s={"java","c","c#","html","jsp"};
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex14_layout);
         Spinner ss= (Spinner) findViewById(R.id.xiala);
         ArrayAdapter aa=new ArrayAdapter(this,android.R.layout.simple_list_item_1,s);

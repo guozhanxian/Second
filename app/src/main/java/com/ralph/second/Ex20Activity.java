@@ -21,15 +21,14 @@ import java.util.Map;
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex20Activity extends Activity {
+public class Ex20Activity extends BaseActivity {
     String[] str = {"橘子", "苹果", "香蕉"};
     TextSwitcher ts;
     int i = 0;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
+    protected void initContentView(Bundle savedInstanceState)
     {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.ex20_layout);
 
         ts = (TextSwitcher) findViewById(R.id.txtSwitch);

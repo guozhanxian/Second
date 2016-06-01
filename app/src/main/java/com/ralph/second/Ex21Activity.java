@@ -8,11 +8,10 @@ import android.widget.Toast;
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex21Activity extends Activity {
+public class Ex21Activity extends BaseActivity {
     CalendarView cv;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex21_layout);
 
         cv = (CalendarView) findViewById(R.id.calendarView);

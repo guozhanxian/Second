@@ -9,9 +9,15 @@ import android.widget.ListView;
 
 public class MainActivity extends BaseActivity {
     String[] names = {"Hello World","画心形图像","获取短信验证码","Chronometer倒计时和保修期计算"
-    ,"循环显示五张图片","Preference配置","图书Fragment","选择城市列表","获取手机联系人信息"};
+    ,"循环显示五张图片","图片链接到联系人信息","用Socket获取服务端数据","ArrayAdapter显示城市列表","SimpleAdapter和BaseAdapter"
+           ,"URLConnection连接百度手机归属地" ,"ListActivity显示列表","AutoCompleteTextView过滤字符串","ExpandableListView显示好友分组"
+            ,"Spinner选择编程语言","AdapterViewFlipper循环播放图片","StackView播放图片","进度条显示进度","星评分RatingBar"
+            ,"Grid显示图片动画显示出图片","动画效果显示文字","CalendarView选择生日","Preference配置","图书Fragment","选择城市列表","获取手机联系人信息","获取网络图片"};
     Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
-    ,Ex05Activity.class,Ex29Activity.class,Ex30Activity.class,Ex31Activity.class,Ex32Activity.class};
+    ,Ex05Activity.class,Ex06Activity.class,Ex07Activity.class,Ex08Activity.class, Ex09Activity.class
+            ,Ex10Activity.class,Ex11Activity.class,Ex12Activity.class,Ex13Activity.class
+            ,EX14Activity.class,Ex15Activity.class,Ex16Activity.class,Ex17Activity.class,Ex18Activity.class
+            ,Ex19Activity.class,Ex20Activity.class,Ex21Activity.class,Ex29Activity.class,Ex30Activity.class,Ex31Activity.class,Ex32Activity.class,Ex33Activity.class};
     //String[] actions = {"helloworld","heart"};
     ListView listView;
     @Override

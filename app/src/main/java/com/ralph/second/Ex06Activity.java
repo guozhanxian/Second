@@ -7,10 +7,9 @@ import android.widget.QuickContactBadge;
 /**
  * Created by 果占先 on 2016/5/17.
  */
-public class Ex06Activity extends Activity {
+public class Ex06Activity extends BaseActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex06_layout);
 
         QuickContactBadge qc = (QuickContactBadge) findViewById(R.id.quickContactBadge);

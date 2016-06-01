@@ -19,7 +19,7 @@ import java.net.URL;
 /**
  * Created by 果占先 on 2016/5/18.
  */
-public class Ex10Activity extends Activity {
+public class Ex10Activity extends BaseActivity {
 
     Handler h = new Handler(){
         @Override
@@ -42,8 +42,7 @@ public class Ex10Activity extends Activity {
     EditText phone;
     TextView result;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex10_layout);
 
         phone = (EditText) findViewById(R.id.phoneNum);

@@ -24,7 +24,7 @@ import java.net.Socket;
 /**
  * Created by 果占先 on 2016/5/17.
  */
-public class Ex07Activity extends Activity {
+public class Ex07Activity extends BaseActivity {
     Handler h = new Handler(){
         @Override
         public void handleMessage(Message msg) {
@@ -41,8 +41,7 @@ public class Ex07Activity extends Activity {
     TextView tv;
     EditText txt;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex07_layout);
 
         tv = (TextView) findViewById(R.id.findResult);

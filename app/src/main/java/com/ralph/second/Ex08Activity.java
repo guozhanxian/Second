@@ -9,11 +9,10 @@ import android.widget.ListView;
 /**
  * Created by 果占先 on 2016/5/18.
  */
-public class Ex08Activity extends Activity {
+public class Ex08Activity extends BaseActivity {
     String[] arr = {"沈阳","北京","哈尔滨","上海","深圳"};
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex08_layout);
 
         ListView view = (ListView) findViewById(R.id.cityList);

@@ -10,10 +10,9 @@ import java.util.Map;
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex09Activity2 extends Activity{
+public class Ex09Activity2 extends BaseActivity{
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex09_layout2);
 
         Bundle b = getIntent().getBundleExtra("data");

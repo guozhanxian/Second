@@ -15,20 +15,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex19Activity extends Activity {
+public class Ex19Activity extends BaseActivity {
     int[] imgs = {R.drawable.icon_11,R.drawable.icon_13,R.drawable.icon_16,R.drawable.icon_18,
     R.drawable.icon_28,R.drawable.icon_30,R.drawable.icon_31,R.drawable.icon_33,R.drawable.icon_34,
     R.drawable.icon_37,R.drawable.icon_40,R.drawable.icon_41};
     List<Map<String ,Object>> list = new ArrayList<Map<String , Object>>();
     ImageSwitcher switcher;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex19_layout);
 
         GridView gv = (GridView) findViewById(R.id.grid);

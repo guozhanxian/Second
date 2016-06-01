@@ -23,13 +23,12 @@ import java.util.Map;
 /**
  * Created by 果占先 on 2016/5/18.
  */
-public class Ex09Activity extends Activity {
+public class Ex09Activity extends BaseActivity {
     List<Student> list = new ArrayList<Student>();
 
     List<Map<String,Object>> res = new ArrayList<Map<String,Object>>();
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex09_layout);
 
         Student s1 = new Student();

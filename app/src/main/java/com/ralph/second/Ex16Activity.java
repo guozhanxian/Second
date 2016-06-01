@@ -11,12 +11,11 @@ import android.widget.StackView;
 /**
  * Created by 果占先 on 2016/5/19.
  */
-public class Ex16Activity extends Activity {
+public class Ex16Activity extends BaseActivity {
     int[] i={R.drawable.icon_11,R.drawable.icon_28,R.drawable.icon_30,R.drawable.icon_33,R.drawable.icon_37};
     StackView sv;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex16_layout);
           sv= (StackView) findViewById(R.id.myview);
         BaseAdapter b=new BaseAdapter() {

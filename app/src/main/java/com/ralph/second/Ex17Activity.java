@@ -11,7 +11,7 @@ import android.widget.ProgressBar;
 /**
  * Created by 果占先 on 2016/5/23.
  */
-public class Ex17Activity extends Activity {
+public class Ex17Activity extends BaseActivity {
 
     int data = 0;
     Handler h = new Handler(){
@@ -31,8 +31,7 @@ public class Ex17Activity extends Activity {
     ProgressBar pb2;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex17_layout);
 
         pb = (ProgressBar) findViewById(R.id.pb);

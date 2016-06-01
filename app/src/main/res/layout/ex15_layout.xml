@@ -2,33 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
-    <Button
-        android:layout_width="wrap_content"
+    <include layout="@layout/toolbar_layout" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="上一张"
-        android:id="@+id/button2"
-        android:onClick="last"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="自动播放"
-        android:id="@+id/button3"
-        android:onClick="auto"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="下一张"
-        android:id="@+id/button4"
-        android:onClick="next"/>
-
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一张"
+            android:id="@+id/button2"
+            android:onClick="last"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动播放"
+            android:id="@+id/button3"
+            android:onClick="auto"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一张"
+            android:id="@+id/button4"
+            android:onClick="next"/>
+    </LinearLayout>
     <AdapterViewFlipper
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:id="@+id/myadp"></AdapterViewFlipper>
 </LinearLayout>

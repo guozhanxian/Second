@@ -8,11 +8,10 @@ import android.widget.AutoCompleteTextView;
 /**
  * Created by 果占先 on 2016/5/19.
  */
-public class Ex12Activity extends Activity {
+public class Ex12Activity extends BaseActivity {
     String[] arr = {"aaa","aab","aac","abb","bbc","bbd","bca","caa","cdd","ccc"};
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex12_layout);
 
         AutoCompleteTextView txt = (AutoCompleteTextView) findViewById(R.id.searchTxt);

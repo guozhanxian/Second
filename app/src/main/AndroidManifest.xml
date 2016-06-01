@@ -22,42 +22,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex01Activity">
-            <intent-filter>
-                <action android:name="helloworld" />
-                <category android:name="com.ralph.second" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Ex02Activity">
-            <intent-filter>
-                <action android:name="heart" />
-                <category android:name="com.ralph.second" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Ex01Activity"></activity>
+        <activity android:name=".Ex02Activity"></activity>
         <activity android:name=".TestActivity"></activity>
         <activity android:name=".Ex03Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Ex04Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Ex05Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Ex06Activity"></activity>
-        <activity android:name=".Ex07Activity"></activity>
-        <activity android:name=".Ex08Activity"></activity>
-        <activity android:name=".Ex09Activity"></activity>
-        <activity android:name="Ex09Activity2"></activity>
-        <activity android:name=".Ex10Activity"></activity>
+        <activity android:name=".Ex06Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex07Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex08Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex09Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="Ex09Activity2" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex10Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Ex11Activity"></activity>
-        <activity android:name=".Ex12Activity"></activity>
-        <activity android:name=".Ex13Activity"></activity>
-        <activity android:name=".EX14Activity"></activity>
-        <activity android:name=".Ex15Activity"></activity>
-        <activity android:name=".Ex16Activity"></activity>
-        <activity android:name=".Ex17Activity"></activity>
-        <activity android:name=".Ex18Activity"></activity>
+        <activity android:name=".Ex12Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex13Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".EX14Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex15Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex16Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex17Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex18Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".PlaneActivity"></activity>
-        <activity android:name=".Ex19Activity"></activity>
-        <activity android:name=".Ex20Activity"></activity>
-        <activity android:name=".Ex21Activity"></activity>
+        <activity android:name=".Ex19Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex20Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Ex21Activity" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Ex22Activity"></activity>
         <activity android:name=".Ex23Activity"></activity>
         <activity android:name=".Ex24Activity"></activity>
@@ -84,6 +72,8 @@
         <activity android:name=".Ex31Activity2" android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".Ex32Activity" android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Ex33Activity" android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 </manifest>
