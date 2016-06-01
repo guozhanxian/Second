@@ -11,11 +11,10 @@ import android.view.View;
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex24Activity extends Activity {
+public class Ex24Activity extends BaseActivity {
     NotificationManager nm;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex24_layout);
 
         nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
