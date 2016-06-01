@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/quan1" android:duration="60"></item>
+    <item android:drawable="@drawable/quan2" android:duration="60"></item>
+    <item android:drawable="@drawable/quan3" android:duration="60"></item>
+    <item android:drawable="@drawable/quan4" android:duration="60"></item>
+    <item android:drawable="@drawable/quan5" android:duration="60"></item>
+    <item android:drawable="@drawable/quan6" android:duration="60"></item>
+    <item android:drawable="@drawable/quan7" android:duration="60"></item>
+    <item android:drawable="@drawable/quan8" android:duration="60"></item>
+    <item android:drawable="@drawable/quan9" android:duration="60"></item>
+    <item android:drawable="@drawable/quan10" android:duration="60"></item>
+    <item android:drawable="@drawable/quan11" android:duration="60"></item>
+    <item android:drawable="@drawable/quan12" android:duration="60"></item>
+    <item android:drawable="@drawable/quan13" android:duration="60"></item>
+    <item android:drawable="@drawable/quan14" android:duration="60"></item>
+    <item android:drawable="@drawable/quan15" android:duration="60"></item>
+    <item android:drawable="@drawable/quan16" android:duration="60"></item>
+</animation-list>

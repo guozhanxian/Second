@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import java.io.IOException;
@@ -44,12 +43,10 @@ public class Ex33Activity extends BaseActivity {
     @Override
     protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex33_layout);
-        Button btn= (Button) findViewById(R.id.button);
         img = (ImageView) findViewById(R.id.imagehehe);
-
     }
-    public void next(View view){
 
+    public void next(View view){
         (new Thread() {
             @Override
             public void run() {

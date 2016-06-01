@@ -6,10 +6,9 @@ import android.os.Bundle;
 /**
  * Created by 果占先 on 2016/5/24.
  */
-public class Ex22Activity extends Activity {
+public class Ex22Activity extends BaseActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.ex22_layout);
     }
 }
