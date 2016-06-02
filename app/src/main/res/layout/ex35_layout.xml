@@ -18,4 +18,14 @@
         android:layout_height="wrap_content"
         android:text="End"
         android:onClick="stop"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/animIv2"
+        android:background="@drawable/icon_33"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始动画"
+        android:onClick="startAnimation"/>
 </LinearLayout>
