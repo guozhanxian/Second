@@ -41,10 +41,10 @@ public class Ex43Provider extends ContentProvider {
         switch (matcher.match(uri))
         {
             case STUDENTS:
-                return db.query("student",new String[]{"name","age"},selection,selectionArgs,null,null,sortOrder);
+                return db.query("student",new String[]{"_id","name","age"},selection,selectionArgs,null,null,sortOrder);
             case STUDENT:
                 long id = ContentUris.parseId(uri);
-                return  db.query("student",new String[]{"name","age"},"_id=?",new String[]{id+""},null,null,sortOrder);
+                return  db.query("student",new String[]{"_id","name","age"},"_id=?",new String[]{id+""},null,null,sortOrder);
             default:
                 throw new IllegalArgumentException("未知Uri地址："+uri);
         }

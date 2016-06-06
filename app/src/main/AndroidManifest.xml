@@ -169,5 +169,8 @@
             android:authorities="com.ralph.second"
             android:name=".Ex43Provider"
             android:exported="true" />
+        <activity
+            android:name=".Ex44Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 </manifest>
