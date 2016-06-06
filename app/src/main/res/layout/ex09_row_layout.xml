@@ -5,19 +5,14 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
         android:id="@+id/studPic"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/studPic"
-        android:layout_alignTop="@+id/studPic"
         android:id="@+id/studName"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/studPic"
         android:layout_alignParentRight="true"
         android:id="@+id/studAge"/>
 </RelativeLayout>
