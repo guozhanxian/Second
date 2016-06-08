@@ -4,6 +4,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
@@ -171,6 +172,17 @@
             android:exported="true" />
         <activity
             android:name=".Ex44Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ex45Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".Ex45Service" />
+        <activity
+            android:name=".Ex46Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".Ex46Service" />
+        <activity
+            android:name=".Ex47Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 </manifest>

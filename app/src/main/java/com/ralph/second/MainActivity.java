@@ -16,7 +16,7 @@ public class MainActivity extends BaseActivity {
             ,"Notification发送通知"
             ,"Preference配置","图书Fragment","选择城市列表","获取手机联系人信息","获取网络图片","旋转图片","打拳动画播放"
             ,"SurfaceView画图","SharedPreference读写XML文件","SQLite查询学生信息","Fling事件翻动图片","手势保存","手势识别"
-            ,"百度语音朗读TTS","ContentResolver读取共享数据"};
+            ,"百度语音朗读TTS","ContentResolver读取共享数据","用Service播放声音","绑定方式启动Servie获取数据","监听手机来电"};
     Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
     ,Ex05Activity.class,Ex06Activity.class,Ex07Activity.class,Ex08Activity.class, Ex09Activity.class
             ,Ex10Activity.class,Ex11Activity.class,Ex12Activity.class,Ex13Activity.class
@@ -25,7 +25,7 @@ public class MainActivity extends BaseActivity {
             ,Ex24Activity.class
             ,Ex29Activity.class,Ex30Activity.class,Ex31Activity.class,Ex32Activity.class,Ex33Activity.class,Ex34Activity.class,Ex35Activity.class
             ,Ex36Activity.class,Ex37Activity.class,Ex38Activity.class,Ex39Activity.class,Ex40Activity.class,Ex41Activity.class
-            ,Ex42Activity.class,Ex44Activity.class};
+            ,Ex42Activity.class,Ex44Activity.class,Ex45Activity.class,Ex46Activity.class,Ex47Activity.class};
     //String[] actions = {"helloworld","heart"};
     ListView listView;
     @Override
