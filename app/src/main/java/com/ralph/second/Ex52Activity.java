@@ -42,10 +42,10 @@ public class Ex52Activity extends BaseActivity {
             recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
             recorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
             recorder.setVideoEncoder(MediaRecorder.VideoEncoder.MPEG_4_SP);
-            recorder.setVideoSize(320,280);
+            //recorder.setVideoSize(320,280);
             recorder.setVideoFrameRate(4);
             recorder.setOutputFile(file.getAbsolutePath());
-
+            recorder.setOrientationHint(90);
             recorder.setPreviewDisplay(sv.getHolder().getSurface());
 
             recorder.prepare();
