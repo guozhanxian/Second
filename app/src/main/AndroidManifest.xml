@@ -184,5 +184,14 @@
         <activity
             android:name=".Ex47Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ex48Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ex49Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ex50Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 </manifest>
