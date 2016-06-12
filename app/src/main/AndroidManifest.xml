@@ -202,5 +202,8 @@
         <activity
             android:name=".Ex52Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Ex53Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 </manifest>
