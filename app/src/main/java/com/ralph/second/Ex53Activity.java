@@ -42,7 +42,6 @@ public class Ex53Activity extends BaseActivity {
 
             @Override
             public void onFailure(Call<PhoneCity> call, Throwable t) {
-
             }
         });
     }
