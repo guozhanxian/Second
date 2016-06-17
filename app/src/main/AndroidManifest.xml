@@ -27,6 +27,7 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -38,6 +39,8 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="mF30Ge9lZS6q1ClMrYMczr3tVnOxP7P1" />
+
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="93ce7c3fe8cae493a4c8d4b6b3c7ca6e"></meta-data>
 
         <activity
             android:name=".MainActivity"
@@ -231,5 +234,8 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".Ex58Activity"></activity>
+        <activity
+            android:name=".Ex59Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 </manifest>

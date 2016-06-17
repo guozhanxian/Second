@@ -13,6 +13,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by 果占先 on 2016/5/26.
  */
@@ -21,6 +23,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initContentView(savedInstanceState);
+        ButterKnife.bind(this);
         Toolbar t = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(t);
         getSupportActionBar().setTitle("");

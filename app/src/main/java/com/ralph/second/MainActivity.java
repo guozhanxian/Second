@@ -13,23 +13,25 @@ public class MainActivity extends BaseActivity {
            ,"URLConnection连接百度手机归属地" ,"ListActivity显示列表","AutoCompleteTextView过滤字符串","ExpandableListView显示好友分组"
             ,"Spinner选择编程语言","AdapterViewFlipper循环播放图片","StackView播放图片","进度条显示进度","星评分RatingBar"
             ,"Grid显示图片动画显示出图片","动画效果显示文字","CalendarView选择生日","选择日期和时间","TabHost做Tab标签"
-            ,"Notification发送通知"
+            ,"Notification发送通知","使用各种对话框","使用Toolbar","使用外部普通类处理事件"
             ,"Preference配置","图书Fragment","选择城市列表","获取手机联系人信息","获取网络图片","旋转图片","打拳动画播放"
             ,"SurfaceView画图","SharedPreference读写XML文件","SQLite查询学生信息","Fling事件翻动图片","手势保存","手势识别"
             ,"百度语音朗读TTS","ContentResolver读取共享数据","用Service播放声音","绑定方式启动Servie获取数据","监听手机来电"
             ,"SoundPool播放音频","VideoView播放视频","MediaPlayer和SurfaceView播放视频","音频录制","视频录制"
-            ,"Retrofit请求手机归属地","传感器应用","WebView显示H5","GPS获取位置信息","百度地图"};
+            ,"Retrofit请求手机归属地","传感器应用","WebView显示H5","GPS获取位置信息","百度地图"
+            ,"使用ButterKnife获取组件"};
     Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
     ,Ex05Activity.class,Ex06Activity.class,Ex07Activity.class,Ex08Activity.class, Ex09Activity.class
             ,Ex10Activity.class,Ex11Activity.class,Ex12Activity.class,Ex13Activity.class
             ,EX14Activity.class,Ex15Activity.class,Ex16Activity.class,Ex17Activity.class,Ex18Activity.class
             ,Ex19Activity.class,Ex20Activity.class,Ex21Activity.class,Ex22Activity.class,Ex23Activity.class
-            ,Ex24Activity.class
+            ,Ex24Activity.class,Ex25Activity.class,Ex26Activity.class,Ex27Activity.class
             ,Ex29Activity.class,Ex30Activity.class,Ex31Activity.class,Ex32Activity.class,Ex33Activity.class,Ex34Activity.class,Ex35Activity.class
             ,Ex36Activity.class,Ex37Activity.class,Ex38Activity.class,Ex39Activity.class,Ex40Activity.class,Ex41Activity.class
             ,Ex42Activity.class,Ex44Activity.class,Ex45Activity.class,Ex46Activity.class,Ex47Activity.class
             ,Ex48Activity.class,Ex49Activity.class,Ex50Activity.class,Ex51Activity.class,Ex52Activity.class
-            ,Ex53Activity.class,Ex55Activity.class,Ex56Activity.class,Ex57Activity.class,Ex58Activity.class};
+            ,Ex53Activity.class,Ex55Activity.class,Ex56Activity.class,Ex57Activity.class,Ex58Activity.class
+            ,Ex59Activity.class};
     //String[] actions = {"helloworld","heart"};
     ListView listView;
     @Override
