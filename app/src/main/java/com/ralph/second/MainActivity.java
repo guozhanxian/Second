@@ -19,7 +19,7 @@ public class MainActivity extends BaseActivity {
             ,"百度语音朗读TTS","ContentResolver读取共享数据","用Service播放声音","绑定方式启动Servie获取数据","监听手机来电"
             ,"SoundPool播放音频","VideoView播放视频","MediaPlayer和SurfaceView播放视频","音频录制","视频录制"
             ,"Retrofit请求手机归属地","传感器应用","WebView显示H5","GPS获取位置信息","百度地图"
-            ,"使用ButterKnife获取组件"};
+            ,"使用ButterKnife获取组件","ListView分页显示数据"};
     Class[] clazz = {Ex01Activity.class,Ex02Activity.class,Ex03Activity.class,Ex04Activity.class
     ,Ex05Activity.class,Ex06Activity.class,Ex07Activity.class,Ex08Activity.class, Ex09Activity.class
             ,Ex10Activity.class,Ex11Activity.class,Ex12Activity.class,Ex13Activity.class
@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity {
             ,Ex42Activity.class,Ex44Activity.class,Ex45Activity.class,Ex46Activity.class,Ex47Activity.class
             ,Ex48Activity.class,Ex49Activity.class,Ex50Activity.class,Ex51Activity.class,Ex52Activity.class
             ,Ex53Activity.class,Ex55Activity.class,Ex56Activity.class,Ex57Activity.class,Ex58Activity.class
-            ,Ex59Activity.class};
+            ,Ex59Activity.class,Ex60Activity.class};
     //String[] actions = {"helloworld","heart"};
     ListView listView;
     @Override
